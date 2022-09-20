@@ -8,17 +8,16 @@ import Navigation from '../Navigation/Navigation';
 const Navbar = () => {
     return (
         <div>
-            <div className="container">
-
-                <nav className="nav__content">
-                    <div className="nav__content-container container-80">
+            <nav>
+                <div className="container">
+                    <div className="nav__content">
 
                         <div className="nav__content-logo">
                             <Link to='/'><img src={logo} alt="logo" /></Link>
                         </div>
 
                         <div className="nav__content-right">
-                            <div className="nav__content-links">
+                            <div className="nav__content-text ">
                                 <Navigation />
                             </div>
 
@@ -26,10 +25,10 @@ const Navbar = () => {
                         </div>
 
                     </div>
-                </nav>
-
-            </div>
+                </div>
+            </nav>
         </div>
+
     )
 }
 

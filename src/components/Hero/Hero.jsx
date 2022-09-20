@@ -4,13 +4,12 @@ import './Hero.css'
 const Hero = () => {
     return (
         <div>
-            <div className="content">
-                <div className="container-80">
+            <section>
+                <div className="container">
                     <h2>Home</h2>
 
                 </div>
-            </div>
-
+            </section>
         </div>
     )
 }

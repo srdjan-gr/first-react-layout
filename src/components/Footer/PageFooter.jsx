@@ -9,18 +9,15 @@ const PageFooter = () => {
     return (
         <div>
             <footer>
-                <div className="container-80">
+                <div className="container">
                     <div className="footer__content">
 
                         <div className="socials">
                             <div className="icons">
-
                                 <li> <FaInstagram /></li>
                                 <li><FaTwitter /></li>
                                 <li><FaGithub /></li>
-
                             </div>
-
                         </div>
 
                         <div className="info">
