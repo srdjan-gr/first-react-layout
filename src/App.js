@@ -22,8 +22,6 @@ function App() {
           <Route path='/shop' element={<Shop />} />
           <Route path='/blog' element={<Blog />} />
 
-
-
           <Route path='*' element={<ErrorPage />} />
         </Routes>
 

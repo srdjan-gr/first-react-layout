@@ -10,22 +10,26 @@ const PageFooter = () => {
         <div>
             <footer>
                 <div className="container">
-                    <div className="footer__content">
+                    <div className="footer__content-container">
 
-                        <div className="socials">
-                            <div className="icons">
+                        <div className="footer__content">
+                            <div className="socials">
                                 <li> <FaInstagram /></li>
                                 <li><FaTwitter /></li>
                                 <li><FaGithub /></li>
                             </div>
+
+                            <div className="info">
+
+                            </div>
+
+                            <div className="pages">
+                                <Navigation />
+                            </div>
                         </div>
 
-                        <div className="info">
-
-                        </div>
-
-                        <div className="pages">
-                            <Navigation />
+                        <div className="footer__dev">
+                            <a href="#">D&D Srdjan Grujeskovic</a>
                         </div>
 
                     </div>
